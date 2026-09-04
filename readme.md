@@ -6,10 +6,10 @@ Install go lang tools from da google.
 
 https://go.dev/
 
-# Server startup
-Open a terminal in the server/editor_server folder. execute `go run main.go`
+Download zip of project from this github page and unzip.
 
-Alternatively, execute `go run path/to/main.go` from anywhere.
+# Server startup
+Run editor.bat and allow access when prompted.
 
 # Server usage
 Open a browser and navigate to `localhost:8080/website/?q=test`

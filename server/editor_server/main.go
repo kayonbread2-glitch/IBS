@@ -1,12 +1,12 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	"net/http"
 	"path/filepath"
 )
 
-const RELATIVE_ROOT = "../.."
+const RELATIVE_ROOT = "."
 
 func dynamicFileHandler(w http.ResponseWriter, r *http.Request) {
 	requestPath := filepath.Clean(r.URL.Path)
@@ -26,6 +26,7 @@ func dynamicFileHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	fmt.Printf("Running server on localhost:8080")
 	http.HandleFunc("/", dynamicFileHandler)
 	if err := http.ListenAndServe(":8080", nil); err != nil {
 		panic(err)

@@ -1,6 +1,6 @@
 <!-- This is a comment. This line does nothing to the final output page but can be used to leave notes -->
 
-# Big header
+# Markdown Syntax Showcase [Go To Playground](/website/?q=playground)
 
 ## Smaller header
 
