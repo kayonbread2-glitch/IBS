@@ -21,14 +21,20 @@
 <!-- Three hyphens is a seperator such as below-->
 --- 
 
+<shake-text>Shake Text Content Here</shake-text>
+[Click to learn details](/website?q=shake)
+
 <abberated-text amplitude="10.0" frequency="0.2" speed="0.025">Abberated Text Content Here</abberated-text>
 [Click to learn details](/website?q=abberated)
 
-
-Garbled text - <garbled-text>##asdfliupoicvzuyv##</garbled-text>
+Garbled text - <garbled-text>The letters here don't matter just the number<garbled-text>
 
 **Bold text**
 
 *Italics*
 
->>> Quote block
+&nbsp; indent just first line of paragraph. 
+
+> Shift chunk right 
+
+>> Shift further right
