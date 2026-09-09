@@ -6,23 +6,16 @@ import (
 	"path/filepath"
 )
 
-const RELATIVE_ROOT = "."
+const RELATIVE_ROOT = "./website"
 
 func dynamicFileHandler(w http.ResponseWriter, r *http.Request) {
 	requestPath := filepath.Clean(r.URL.Path)
 
-	if requestPath == "server" {
-		return
-	}
-
-	if requestPath == "/ws/editor" {
-		return
-	}
-
 	localFilePath := filepath.Join(RELATIVE_ROOT, requestPath)
 
-	http.ServeFile(w, r, localFilePath)
+	fmt.Println(localFilePath)
 
+	http.ServeFile(w, r, localFilePath)
 }
 
 func main() {

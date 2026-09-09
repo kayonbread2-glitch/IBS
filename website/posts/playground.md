@@ -1,4 +1,12 @@
-### [Go Back](/website/?q=test)
+---
+title: Playground 
+teaser: The wind swept violently against the sides of the ship digging shrapnel and debri into the varius crevices along the hull.
+date_posted: 09-06-2026
+last_edited: 09-06-2026
+---
+
+
+### [Go Back](?q=test)
 
 # The <garbled-text hover duration="1200">######</garbled-text> - <abberated-text amplitude="10" frequency="1" speed="0.01">KayOnBread</abberated-text>
 &nbsp;  The wind swept violently against the sides of the ship digging shrapnel and debri into the varius crevices along the hull.

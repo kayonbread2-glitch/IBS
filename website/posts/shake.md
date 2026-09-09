@@ -1,4 +1,12 @@
-# Shake Text Attributes [Go Back](/website?q=test)
+---
+title: Shake 
+teaser: View all the vars of shake-text
+date_posted: 09-06-2026
+last_edited: 09-06-2026
+---
+
+
+# Shake Text Attributes [Go Back](?q=test)
 
 ### Amplitude
 Shake violence

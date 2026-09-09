@@ -1,0 +1,50 @@
+{
+    "abberated": {
+        "title": "Abberation Sample",
+        "teaser": "See all of the different abberation vars.",
+        "date_posted": "09-06-2026",
+        "last_edited": "09-06-2026"
+    },
+    "erasure-final": {
+        "title": "Erasure - Final",
+        "teaser": "I've decided this will be the final update. There is nothing any of you can do for me anymore. I appreciate all of the help and kind words I have received from those of you reading but I am now truly hopeless.",
+        "date_posted": "09-07-2026",
+        "last_edited": "09-06-2026"
+    },
+    "erasure-update1": {
+        "title": "Erasure-update",
+        "teaser": "Hey guys, you all offered me some great advice to work on memory problems and I have some news. Some of it is good and some bad. We'll start with the good.",
+        "date_posted": "09-07-2026",
+        "last_edited": "09-06-2026"
+    },
+    "erasure": {
+        "title": "Erasure",
+        "teaser": "I'm having severe memory problems and I don't know what to do. Seeking advice.",
+        "date_posted": "09-07-2026",
+        "last_edited": "09-06-2026"
+    },
+    "monster": {
+        "title": "Monster",
+        "teaser": "Classification No Threat - Perceptual Anomaly / Uncontained",
+        "date_posted": "09-06-2026",
+        "last_edited": "09-06-2026"
+    },
+    "playground": {
+        "title": "Playground",
+        "teaser": "The wind swept violently against the sides of the ship digging shrapnel and debri into the varius crevices along the hull.",
+        "date_posted": "09-06-2026",
+        "last_edited": "09-06-2026"
+    },
+    "shake": {
+        "title": "Shake",
+        "teaser": "View all the vars of shake-text",
+        "date_posted": "09-06-2026",
+        "last_edited": "09-06-2026"
+    },
+    "test": {
+        "title": "TestPage",
+        "teaser": "Sample all different markdown and custom widget items",
+        "date_posted": "09-06-2026",
+        "last_edited": "09-06-2026"
+    }
+}

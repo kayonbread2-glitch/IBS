@@ -1,6 +1,13 @@
+---
+title: TestPage
+teaser: Sample all different markdown and custom widget items
+date_posted: 09-06-2026
+last_edited: 09-06-2026
+---
+
 <!-- This is a comment. This line does nothing to the final output page but can be used to leave notes -->
 
-# Markdown Syntax Showcase [Go To Playground](/website/?q=playground)
+# Markdown Syntax Showcase [Go To Playground](?q=playground)
 
 ## Smaller header
 
@@ -19,7 +26,7 @@
 [ ] - unchecked
 
 <!-- Three hyphens is a seperator such as below-->
---- 
+___ 
 
 <shake-text>Shake Text Content Here</shake-text>
 [Click to learn details](/website?q=shake)

@@ -1,4 +1,14 @@
+---
+title: Monster 
+teaser: Classification No Threat - Perceptual Anomaly / Uncontained
+date_posted: 09-06-2026
+last_edited: 09-06-2026
+---
+
+
 # Artifact of Kay - Specimen #006
+
+---
 
 **Classification:** No Threat - Perceptual Anomaly / Uncontained
 

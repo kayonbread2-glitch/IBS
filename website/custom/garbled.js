@@ -37,11 +37,10 @@ class GarbledText extends HTMLElement {
   }
 
   animation(timestamp) {
-    console.log("Frame");
     if ((timestamp - this.lastGarble) > (1.0 / this.fps) * 1000.0) {
       this.garble();
       this.lastGarble = timestamp;
-    } 
+    }
 
     this.animationId = requestAnimationFrame(this.animation);
   }
@@ -50,7 +49,7 @@ class GarbledText extends HTMLElement {
     this.textContent = Array.from(this.textContent, char => {
       if (char === ' ') return ' ';
 
-      return this.getRandomUnicodeChar(); 
+      return this.getRandomUnicodeChar();
     }).join('');
   }
 

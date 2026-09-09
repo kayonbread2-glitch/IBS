@@ -9,6 +9,33 @@ html {
   /* background-attachment: fixed; */
   /* background-position: center; */
   /* background-size: cover; */
+
+}
+
+@keyframes dynamicCrtFlicker {
+  /* Steady screen */
+  0%, 18%, 22%, 55%, 57%, 88%, 90%, 100% {
+    opacity: 1;
+  }
+  
+  /* Quick jitter & dimming cluster 1 */
+  19% {
+    opacity: 0.75;
+  }
+  20% {
+    opacity: 0.95;
+  }
+  21% {
+    opacity: 0.4;
+  }
+
+  56% {
+    opacity: 0.3;
+  }
+
+  89% {
+    opacity: 0.85;
+  }
 }
 
 body {
@@ -18,10 +45,11 @@ body {
   background-color: #0f0f11;
   font-family: "VT323", monospace;
 
-  drop-shadow: 
+  max-width: 512px; 
+  min-width: 512px;
 
-  max-width: 80%;
-  min-width: 80%;
+  animation: dynamicCrtFlicker 20s infinite;
+  animation-timing-function: steps(1);
 }
 
 html::after {

@@ -2,20 +2,58 @@
 <html>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=VT323&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=VT323&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./aberrated.css">
-  <body id="viewer">
-    <!-- <h1>The <garbled-text hover duration="1200">######</garbled-text> - <abberated-text amplitude="10" frequency="1" speed="0.01">KayOnBread</abberated-text></h1> -->
-    <!-- <p>The wind swept violently against the sides of the ship digging shrapnel and debri into the varius crevices along the hull.</p> -->
-    <!-- <abberated-text amplitude="10" frequency="0.1" speed="0.01"> SCREEEEECH </abberated-text>   -->
-    <!-- <p>It wouldn't be long before there was a breach in the oxygen seal protecting me from the deadly vacuum outside. How is there wind in space? Its cosmic wind of course, like wind but with cosmic stuff. I didn't go to school for this obviously I'm just a pilot.</p> -->
-  </body>
+  <link rel="stylesheet" href="/styles/index.css">
+  <body>
+  <div class="gapped-column">
+    <div id="nav-bar">
+      <div class="url-row">
+        <span id="url-row-prefix">SYS_LOG // </span>
+        <span id="url-row-postfix"><garbled-text>ERASURE</garbled-text></span>
+      </div>
 
-  <script src = "./aberrated.js"></script>
-  <script src = "./garbled.js"></script>
-  <script src = "./shake.js"></script>
+      <div id="nav-button-row">
+        <span class="nav-button-selected">Index</span>
+        <span>Archive</span>
+        <span>Connect</span>
+      </div>
+    </div>
+
+    <div id="command-column">
+      <span id="fake-command">root@index: ~# ./list_entries.sh --recent</span>
+      <span id="description">
+        This is a temporary repository for personal anomalies, corrupted memory
+        logs, and audio artifacts. No events logged can be confirmed as
+        fiction. 
+
+        <br></br>
+
+        <abberated-text amplitude="0.6">USER DISCRETION ADVISED</abberated-text>
+      </span>
+    </div>
+
+    <span class="hint-text">RECENT LOGS</span>
+
+    <div id="card-viewer"></div>
+
+    <div id="footer">
+        <span>SECURE CONNECTION // UNENCRYPTED REPOSITORY</span>
+        <span>TOTAL LOGS: 147</span>
+    </div>
+  </div>
+  </body>
   <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
-  <script type="module" src="./index.js" defer></script>
+
+  <script src = "./custom/wave-text/aberrated.js"></script>
+  <script src = "./custom/garbled.js"></script>
+  <script src = "./custom/shake.js"></script>
+
+  <script src="./javascript/pages/index.js" defer></script>
 </html>
 

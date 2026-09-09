@@ -1,3 +1,11 @@
+---
+title: Abberation Sample 
+teaser: See all of the different abberation vars. 
+date_posted: 09-06-2026
+last_edited: 09-06-2026
+---
+
+
 # Abberated text attributes [Go Back](/website/?q=test)
 
 ### Frequency
